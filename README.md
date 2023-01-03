@@ -59,7 +59,7 @@ If you use MessySMAC or AERIAL in your work, please cite:
     title       = {Attention-Based Recurrency for Multi-Agent Reinforcement Learning under State Uncertainty},
     year        = {2023},
     publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
-    booktitle   = {Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS), Extended Abstract},
+    booktitle   = {Proceedings of the 22nd International Conference on Autonomous Agents and MultiAgent Systems (AAMAS), Extended Abstract},
     keywords    = {Dec-POMDP, state uncertainty, multi-agent learning, recurrency, self-attention},
     location    = {London, USA}
 } 
