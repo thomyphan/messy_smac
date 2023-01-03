@@ -50,7 +50,7 @@ To configure stochasticity of observations and initial states, the parameters `e
 
 `train.sh` is an example script for running all settings as specified in the paper.
 
-# 6. Citation
+## 6. Citation
 If you use MessySMAC or AERIAL in your work, please cite:
 
 ```
