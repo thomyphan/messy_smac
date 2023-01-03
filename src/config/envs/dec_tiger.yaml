@@ -1,0 +1,9 @@
+env: "dec_tiger"
+env_args:
+    n_agents: 2
+    map_name: dec_tiger
+    episode_limit: 4
+gamma: 1.0
+t_max: 300000
+test_nepisode: 16 # Number of episodes to test for
+test_interval: 10000
