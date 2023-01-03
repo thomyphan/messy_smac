@@ -58,7 +58,7 @@ If you use MessySMAC or AERIAL in your work, please cite:
     author      = {Thomy Phan and Fabian Ritz and Jonas Nüßlein and Michael Kölle and Thomas Gabor and Claudia Linnhoff-Popien},
     title       = {Attention-Based Recurrency for Multi-Agent Reinforcement Learning under State Uncertainty},
     year        = {2023},
-    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    publisher   = {International Foundation for Autonomous Agents and MultiAgent Systems},
     booktitle   = {Proceedings of the 22nd International Conference on Autonomous Agents and MultiAgent Systems (AAMAS), Extended Abstract},
     keywords    = {Dec-POMDP, state uncertainty, multi-agent learning, recurrency, self-attention},
     location    = {London, USA}
