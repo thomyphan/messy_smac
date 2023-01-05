@@ -54,13 +54,13 @@ To configure stochasticity of observations and initial states, the parameters `e
 If you use MessySMAC or AERIAL in your work, please cite:
 
 ```
-@inproceedings{phanAAMAS23,
-    author      = {Thomy Phan and Fabian Ritz and Jonas Nüßlein and Michael Kölle and Thomas Gabor and Claudia Linnhoff-Popien},
-    title       = {Attention-Based Recurrency for Multi-Agent Reinforcement Learning under State Uncertainty},
-    year        = {2023},
-    publisher   = {International Foundation for Autonomous Agents and MultiAgent Systems},
-    booktitle   = {Proceedings of the 22nd International Conference on Autonomous Agents and MultiAgent Systems (AAMAS), Extended Abstract},
-    keywords    = {Dec-POMDP, state uncertainty, multi-agent learning, recurrency, self-attention},
-    location    = {London, USA}
-} 
+@misc{phan2023attention,
+    title           = {Attention-Based Recurrency for Multi-Agent Reinforcement Learning under State Uncertainty}, 
+    author          = {Thomy Phan and Fabian Ritz and Jonas Nüßlein and Michael Kölle and Thomas Gabor and Claudia Linnhoff-Popien},
+    year            = {2023},
+    eprint          = {2301.01649},
+    url             = {https://arxiv.org/pdf/2301.01649.pdf},
+    publisher       = {arXiv},
+    primaryClass    = {cs.MA}
+}
 ```
