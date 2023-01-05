@@ -2,9 +2,11 @@
 
 Based on PyMARL. Please refer to the repository for more documentation, e.g., regarding StarCraft II.
 
+For more information regarding MessySMAC, check out our [accompanying paper](https://arxiv.org/abs/2301.01649).
+
 ## 1. Featured algorithms:
 
-- Attention-based Embeddings of Recurrency In multi-Agent Learning (AERIAL)
+- Attention-based Embeddings of Recurrency In multi-Agent Learning ([AERIAL](https://arxiv.org/abs/2301.01649))
 
 ## 2. Evaluation domains
 
