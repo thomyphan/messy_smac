@@ -1,0 +1,37 @@
+# --- COMA specific parameters ---
+
+action_selector: "multinomial"
+epsilon_start: .5
+epsilon_finish: .05
+epsilon_anneal_time: 100000
+mask_before_softmax: False
+
+runner: "parallel"
+
+buffer_size: 32
+batch_size_run: 8
+batch_size: 8
+
+env_args:
+  state_last_action: False # critic adds last action internally
+
+# update the target network every {} training steps
+target_update_interval: 200
+recurrent_critic: False
+
+lr: 0.0005
+critic_lr: 0.0005
+td_lambda: 1.0
+
+# use MAPPO
+agent_output_type: "pi_logits"
+ppo_epoch: 5
+ppo_clip_param: 0.1
+learner: "mappo_learner"
+critic_q_fn: "mappo"
+critic_baseline_fn: "mappo"
+critic_train_mode: "seq"
+critic_train_reps: 1
+state_history: "state"
+
+name: "mappo"

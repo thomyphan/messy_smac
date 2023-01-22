@@ -8,6 +8,7 @@ from .q_learner_w import QLearner as WeightedQLearner
 from .qatten_learner import QattenLearner
 from .dmaq_qatten_learner import DMAQ_qattenLearner
 from .history_q_learner import HistoryQLearner
+from .mappo_learner import MAPPOLearner
 
 REGISTRY = {}
 
@@ -22,4 +23,4 @@ REGISTRY["qatten_learner"] = QattenLearner
 REGISTRY["dmaq_qatten_learner"] = DMAQ_qattenLearner
 
 REGISTRY["history_q_learner"] = HistoryQLearner
-
+REGISTRY["mappo_learner"] = MAPPOLearner
