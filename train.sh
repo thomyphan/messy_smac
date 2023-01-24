@@ -1,6 +1,6 @@
 #!/bin/bash
 
-algorithms=("aerial" "aerial_no_att" "aerial_raw_history1" "qplex" "cw_qmix" "ow_qmix" "qmix" "qtran")
+algorithms=("aerial" "aerial_no_att" "aerial_raw_history1" "qplex" "cw_qmix" "ow_qmix" "qmix" "mappo")
 smac_maps=("3s5z" "10m_vs_11m" "2c_vs_64zg" "3s_vs_5z" "5m_vs_6m" "3s5z_vs_3s6z")
 
 # Dec-Tiger Experiment (State-of-the-Art Comparison)

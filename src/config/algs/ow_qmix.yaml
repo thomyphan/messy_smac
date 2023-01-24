@@ -22,7 +22,7 @@ hypernet_embed: 64
 
 central_loss: 1
 qmix_loss: 1
-w: 0.1 # $\alpha$ in the paper
+w: 0.75 # $\alpha$ in the paper
 hysteretic_qmix: True # False -> CW-QMIX, True -> OW-QMIX
 
 central_mixing_embed_dim: 256

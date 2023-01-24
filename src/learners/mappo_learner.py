@@ -3,7 +3,7 @@ from components.episode_buffer import EpisodeBatch
 from modules.critics.centralV import CentralVCritic
 from utils.rl_utils import build_td_lambda_targets
 import torch as th
-from torch.optim import Adam
+from torch.optim import RMSprop
 import numpy as np
 
 class MAPPOLearner:
@@ -29,8 +29,8 @@ class MAPPOLearner:
         self.critic_params = list(self.critic.parameters())
         self.params = self.agent_params + self.critic_params
 
-        self.agent_optimiser = Adam(params=self.agent_params, lr=args.lr, eps=args.optim_eps)
-        self.critic_optimiser = Adam(params=self.critic_params, lr=args.critic_lr, eps=args.optim_eps)
+        self.agent_optimiser = RMSprop(params=self.agent_params, lr=args.lr, alpha=args.optim_alpha, eps=args.optim_eps)
+        self.critic_optimiser = RMSprop(params=self.critic_params, lr=args.lr, alpha=args.optim_alpha, eps=args.optim_eps)
 
     def train(self, batch: EpisodeBatch, t_env: int, episode_num: int):
         # Get the relevant quantities
