@@ -1,4 +1,4 @@
-# --- QMIX specific parameters ---
+# --- SAC specific parameters ---
 
 # use epsilon greedy action selector
 action_selector: "multinomial"
