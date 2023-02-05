@@ -18,7 +18,6 @@ class Qatten_Weight(nn.Module):
         self.n_actions = args.n_actions
         self.sa_dim = self.state_dim + self.n_agents * self.n_actions
         self.n_head = args.n_head  # attention head num
-
         self.embed_dim = args.mixing_embed_dim
         self.attend_reg_coef = args.attend_reg_coef
 

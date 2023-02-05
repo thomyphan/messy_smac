@@ -6,7 +6,7 @@ For more information regarding MessySMAC, check out our [accompanying paper](htt
 
 ## 1. Featured algorithms:
 
-- Attention-based Embeddings of Recurrency In multi-Agent Learning ([AERIAL](https://arxiv.org/abs/2301.01649))
+- Attention-based Embeddings of Recurrence In multi-Agent Learning ([AERIAL](https://arxiv.org/abs/2301.01649))
 
 ## 2. Evaluation domains
 
@@ -57,7 +57,7 @@ If you use MessySMAC or AERIAL in your work, please cite:
 
 ```
 @misc{phan2023attention,
-    title           = {Attention-Based Recurrency for Multi-Agent Reinforcement Learning under State Uncertainty}, 
+    title           = {Attention-Based Recurrence for Multi-Agent Reinforcement Learning under State Uncertainty}, 
     author          = {Thomy Phan and Fabian Ritz and Jonas Nüßlein and Michael Kölle and Thomas Gabor and Claudia Linnhoff-Popien},
     year            = {2023},
     eprint          = {2301.01649},
