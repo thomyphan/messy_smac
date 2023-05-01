@@ -57,9 +57,9 @@ If you use MessySMAC or AERIAL in your work, please cite:
 
 ```
 @misc{phan2023attention,
-    author	    = {Thomy Phan and Fabian Ritz and Philipp Altmann and Maximilian Zorn and Jonas Nüßlein and Michael Kölle and Thomas Gabor and Claudia Linnhoff-Popien},
-    title	    = {Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability},
-    year	    = {2023},
+    author  = {Thomy Phan and Fabian Ritz and Philipp Altmann and Maximilian Zorn and Jonas Nüßlein and Michael Kölle and Thomas Gabor and Claudia Linnhoff-Popien},
+    title   = {Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability},
+    year    = {2023},
     publisher	= {PMLR},
     booktitle	= {Proceedings of the 40th International Conference on Machine Learning (ICML)},
     keywords	= {Dec-POMDP, stochastic partial observability, multi-agent learning, recurrence, self-attention},
